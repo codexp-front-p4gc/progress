@@ -1,0 +1,20 @@
+html body {
+    margin: 0;
+    width: 100%;
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+.hero {
+    
+    background-size: 100%; 
+    background-color: #61d988;
+    color: #fff;
+}
+
+hero__title {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    
+}
