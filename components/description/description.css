@@ -9,6 +9,6 @@
     text-align: center;
 }
 
-.description h2, .description p {
+.description__title, .description__paragraph {
     padding: 10px;
 }
