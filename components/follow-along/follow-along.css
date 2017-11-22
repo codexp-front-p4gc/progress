@@ -1,0 +1,12 @@
+.follow-along {
+    background-color: #61D988;
+    color: #ffffff;
+    text-align: center;
+}
+
+.follow-along__link {
+    font-weight: bold;
+    text-decoration: none;
+    font-family: 'Archivo Black', sans-serif; 
+    color: #ffffff;
+}
