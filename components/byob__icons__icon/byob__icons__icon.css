@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.icons{
+    font-size: 5rem;
+}
+.icons--diamond{
+    color: #f00000;
+}
+.icons--laptop{
+    color: #ffd700;
+}
+.icons--tree{
+    color: #008000;
+}
+.icons--bicycle{
+    color: #f00000;
+}
+.icons--gavel{
+    color: #ffd700;
+}
+.icons--cogs{
+    color: #2bc5e7;
+}
+.icons--paw{
+    color: #2bc5e7;
+}
+.icons--leaf{
+    color: #008000;
+}
+
+
+
