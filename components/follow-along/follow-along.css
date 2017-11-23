@@ -8,7 +8,12 @@
     background-color: #61D988;
     color: #ffffff;
     text-align: center;
-    padding: 5%;
+    padding: 6%;
+}
+
+.follow-along > p {
+    padding: 0 25%;
+    line-height: 140%; 
 }
 
 .follow-along__link {
@@ -20,12 +25,10 @@
 
 @media screen and (min-width: 768px) {
     .follow-along {
-        padding: 3% 5%;
+        padding: 5%;
     }
-}
 
-@media screen and (min-width: 992px) {
-    .follow-along {
-        padding: 2% 5%;
+    .follow-along > p {
+        padding: 0 5%;
     }
 }
