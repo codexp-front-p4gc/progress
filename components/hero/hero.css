@@ -15,7 +15,7 @@ html body {
     color: #fff;
 }
 
-.hero p {
+.hero__text {
     font-size: 1.2rem;
     text-align: center
 }
@@ -52,7 +52,7 @@ html body {
         max-height: 15rem;
     }
 
-    .hero__title p {
+    .hero__text {
         margin: 0;
         padding: 0 8rem 1.5rem 1rem;
         font-size: 2rem;
@@ -72,7 +72,7 @@ html body {
         margin: 5rem 1rem 0.5rem 0;
     }
 
-    .hero__title p {
+    .hero__text {
         padding: 0 6rem 1.5rem 1rem;
     }
 
