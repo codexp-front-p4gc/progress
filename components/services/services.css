@@ -69,9 +69,12 @@ width: 65%;
 
 @media screen and (min-width: 768px) {
 
+/* SERVICES RESPONSIVE CSS */ 
     .services {
     background-color: #F8F8F9;
     }
+
+/* SERVICES TRACK CLEAR RESPONSIVE CSS */
 
     .track-clear {
     display: block;
@@ -91,7 +94,9 @@ width: 65%;
     float: left;
     padding-left: 8%;
     }
-    
+
+/* SERVICES ESTIMATE RESPONSIVE CSS */
+
     .estimate {
     display: block;
     clear: both;
