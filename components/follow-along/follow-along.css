@@ -1,7 +1,14 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
 .follow-along {
     background-color: #61D988;
     color: #ffffff;
     text-align: center;
+    padding: 5%;
 }
 
 .follow-along__link {
@@ -9,4 +16,16 @@
     text-decoration: none;
     font-family: 'Archivo Black', sans-serif; 
     color: #ffffff;
+}
+
+@media screen and (min-width: 768px) {
+    .follow-along {
+        padding: 3% 5%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .follow-along {
+        padding: 2% 5%;
+    }
 }
