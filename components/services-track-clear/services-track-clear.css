@@ -41,3 +41,26 @@ body {
 .services__track-clear img {
 width: 65%;
 }
+
+/* RESPONSIVE CSS */
+
+@media screen and (min-width: 768px) {
+    .services__track-clear {
+    display: block;
+    position: absolute;
+    padding-top: 3rem;
+      
+    }
+    .services__track-clear .description {
+    width: 40%;
+    float: right;
+    padding-right: 8%;
+    text-align: left;
+    }
+    .services__track-clear img {
+    width: 40%;
+    float: left;
+    padding-left: 8%;
+    }
+
+}
