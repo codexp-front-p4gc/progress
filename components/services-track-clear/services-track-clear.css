@@ -21,43 +21,43 @@ body {
 
 /* SERVICES CSS */
 
-.services__track-clear {
+.track-clear {
     background-color: #F8F8F9;
     display: flex;
     align-items: center;
     flex-direction: column;
 }
 
-.services__track-clear .description {
+.track-clear .description {
     padding: 1.5rem 0 1.5rem 0;
     width: 65%;
    
 }
 
-.services__track-clear .description__title, .services__track-clear .description__paragraph {
+.track-clear .description__title, .track-clear .description__paragraph {
     padding: 0;
 }
 
-.services__track-clear img {
+.track-clear__code {
 width: 65%;
 }
 
 /* RESPONSIVE CSS */
 
 @media screen and (min-width: 768px) {
-    .services__track-clear {
+    .track-clear {
     display: block;
     position: absolute;
     padding-top: 3rem;
       
     }
-    .services__track-clear .description {
+    .track-clear .description {
     width: 40%;
     float: right;
     padding-right: 8%;
     text-align: left;
     }
-    .services__track-clear img {
+    .track-clear__code {
     width: 40%;
     float: left;
     padding-left: 8%;
