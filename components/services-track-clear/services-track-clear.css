@@ -1,20 +1,17 @@
 body {
     height: 100%; 
     width: 100%;
+    margin: 0;
+    padding: 0;
     font-family: 'Quicksand', sans-serif;
 
 }
 
 /* DESCRIPTION CSS */
 
-{
-    margin: 0;
-    padding: 0;
-}
 
 .description {
     padding: 15px;
-    flex: 1;
     text-align: center;
 }
 
@@ -26,8 +23,21 @@ body {
 
 .services__track-clear {
     background-color: #F8F8F9;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.services__track-clear .description {
+    padding: 1.5rem 0 1.5rem 0;
+    width: 65%;
+   
+}
+
+.services__track-clear .description__title, .services__track-clear .description__paragraph {
+    padding: 0;
 }
 
 .services__track-clear img {
-width: 
+width: 65%;
 }
