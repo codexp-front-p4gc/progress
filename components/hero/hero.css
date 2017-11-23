@@ -6,15 +6,41 @@ html body {
 }
 
 .hero {
-    
+    padding: 1rem 3rem 0 3rem;
+    display: flex;
+    flex-direction: column;
     background-size: 100%; 
     background-color: #61d988;
     color: #fff;
 }
 
-hero__title {
+.hero p {
+    font-size: 1.2rem;
+    text-align: center
+}
+
+.hero__title {
     display: flex;
-    flex-wrap: nowrap;
-    justify-content: center;
-    
+    flex-direction: row; 
+    align-content: center;       
+}
+
+.hero__title h1 {
+    margin: 0; 
+    padding: 0.5rem 1rem;
+    font-size: 2rem; 
+}
+
+.icon-hero {
+    max-width: 4.5rem;
+    max-height: 4.5rem;
+    width: auto;
+    height: auto;
+}
+
+.hero__demo {
+    max-width: 15rem;
+    max-height: 20rem;
+    width: auto;
+    height: auto;
 }
