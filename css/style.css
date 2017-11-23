@@ -1,0 +1,19 @@
+/* Example */
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	list-style: none;
+	text-decoration: none;
+}
+
+#test{    
+    font-family: 'Quicksand', sans-serif;
+    color: #F8F8F9;
+    color: #5C5D5D;
+    color: #61D988;
+    color: #CDD8C5;
+    color: #2D333F;
+}
