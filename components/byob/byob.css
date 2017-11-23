@@ -26,10 +26,70 @@
     opacity: 0.8;
 }
 
+.description__paragraph {
+    padding: 0 15% 5% 15%;
+}
+
+.byob-form {
+    padding: 5% 0 15% 0;
+}
+
 @media screen and (min-width: 768px) {
+    .byob__title {
+        padding: 10% 30% 7% 30%;
+        font-size: 40px;
+        flex: 1;
+        text-align: center;
+        color: #2D333F;
+        opacity: 0.9;
+    }
     
+    .description__title--lighter {
+        font-size: 30px;
+    }
+
+    .description__paragraph {
+        font-size: 20px;
+    }
+
+    .byob-form {
+        height: 110%;
+    }
+
+    .byob-form__input {
+        padding: 1.5em 2em;
+        font-size: 1rem;
+    }
+
+    .byob-form__button {
+        padding: 1.5em 2em;
+        font-size: 1rem;
+    }
+
+    .description__paragraph {
+        padding: 0 15% 0 15%; 
+    }
+
+    .byob-form {
+        padding: 5% 0 10% 0;
+    }
 }  
 
 @media screen and (min-width: 992px) {
+    .byob__title {
+        padding: 5% 25% 7% 25%;
+        font-size: 40px;
+        flex: 1;
+        text-align: center;
+        color: #2D333F;
+        opacity: 0.9;
+    }
 
+    .description__paragraph {
+        padding: 0 15% 0 15%; 
+    }
+
+    .byob-form {
+        padding: 5% 0 8% 0;
+    }
 }
