@@ -4,33 +4,40 @@
     box-sizing: border-box;
 }
 
-.icons{
-    font-size: 5rem;
-}
-.icons--diamond{
-    color: #f00000;
-}
-.icons--laptop{
-    color: #ffd700;
-}
-.icons--tree{
-    color: #008000;
-}
-.icons--bicycle{
-    color: #f00000;
-}
-.icons--gavel{
-    color: #ffd700;
-}
-.icons--cogs{
-    color: #2bc5e7;
-}
-.icons--paw{
-    color: #2bc5e7;
-}
-.icons--leaf{
-    color: #008000;
+.business-byob__icon,
+.business-byob__icon--fone{
+    width: 100%;
+    height: auto;
 }
 
+.byob__icons{
+    display: flex;
+    padding: 0 20%;
+    justify-content: center
+}
 
+.business-byob{
+    display: flex;
+    flex-direction: column;
+}
 
+@media screen and (min-width: 768px) {
+    .byob__icons{
+        padding: 0 5%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .byob__icons{
+        padding: 0 5%;
+        align-items: center;
+    }
+    .business-byob__icon{
+        width: 35%;
+        height: 33%;
+    }
+    .business-byob{
+        flex-flow: row wrap;
+        justify-content: space-around;
+    }
+}
