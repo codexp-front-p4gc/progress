@@ -53,14 +53,14 @@ width: 65%;
     }
     .estimate .description {
     width: 40%;
-    float: right;
-    padding-right: 8%;
+    float: left;
+    padding: 14% 0 0 8%;
     text-align: left;
     }
-    .estimate img {
+    .estimate__table {
     width: 40%;
-    float: left;
-    padding-left: 8%;
+    float: right;
+    padding-right: 8%;
     }
 
 }
