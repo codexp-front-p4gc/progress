@@ -1,0 +1,9 @@
+.byob-form__input {
+    padding: 0.8em 2em;
+    border-radius: 10px 0px 0px 10px; 
+    border: 1px solid #FFFFFF;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 0.8rem;
+    background-color: #FFFFFF;
+    color: #666666;
+}
