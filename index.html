@@ -1,15 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title></title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="css/style.css" rel="stylesheet">
-        
-        <!-- FONTE PADRAO -->
-        <link href="https://fonts.googleapis.com/css?family=Quicksand:400,700" rel="stylesheet"> 
-    </head>
-    <body>
-    
-    </body>
+
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="components/hero/hero.css">
+    <link rel="stylesheet" href="components/services/services.css">
+
+    <link rel="stylesheet" href="components/description/description.css">
+    <link rel="stylesheet" href="components/byob__icons/byob__icons__icon.css">
+    <link rel="stylesheet" href="components/byob-form/byob-form.css">
+    <link rel="stylesheet" href="components/byob/byob.css">
+
+    <link rel="stylesheet" href="components/link/link.css">
+    <link rel="stylesheet" href="components/follow-along/follow-along.css">
+    <link rel="stylesheet" href="components/footer/footer.css">
+    <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+</head>
+
+<body>
+    <header class="hero">
+        <div class="hero__title">
+            <img src="components/hero/logo-progress.png" alt="icone" class="hero__logo">
+            <p class="hero__text">A new way for service providers and consumers to track project progression.</p>
+        </div>
+        <img src="components/hero/phone-hero.png" alt="celular" class="hero__phone">
+    </header>
+    <section class="services">
+        <section class="track-clear">
+            <article class="description">
+                <h2 class="description__title">Track projects easily</h2>
+                <p class="description__paragraph">Providers can give updates, share satus, request updates, and require payments in one, efficient tool. Simple,
+                    easy, progress.</p>
+            </article>
+            <img class="track-clear__code" src="components/services/code.png" alt="code mobile screenshots">
+
+            <article class="description">
+                <h2 class="description__title">Clear Communication</h2>
+                <p class="description__paragraph">Progress allows direct communication between the consumer and service provider. No more waiting for call
+                    backs, missing emails, or lost paperwork.</p>
+            </article>
+        </section>
+        <section class="estimate">
+            <img src="components/services/table.png" class="estimate__table" alt="table mobile screenshots">
+
+            <article class="description">
+                <h2 class="description__title">Estimate, approve, pay</h2>
+                <p class="description__paragraph">The major steps of a service job are made simple with Progress. In one location, information and updates
+                    on project estimates and scopes of work are shared between provider and consumer.</p>
+            </article>
+        </section>
+    </section>
+
+    <section class="byob">
+        <h1 class="byob__title">Bring Your Own Business</h1>
+        <article class="byob__icons">
+            <div class="business-byob">
+                <img class="business-byob__icon" src="images/icon1.png" alt="">
+                <img class="business-byob__icon" src="images/icon2.png" alt="">
+                <img class="business-byob__icon" src="images/icon5.png" alt="">
+                <img class="business-byob__icon" src="images/icon6.png" alt="">
+            </div>
+            <figure>
+                <img class="business-byob__icon--fone" src="images/phone.png" alt="">
+            </figure>
+            <div class="business-byob">
+                <img class="business-byob__icon" src="images/icon3.png" alt="">
+                <img class="business-byob__icon" src="images/icon4.png" alt="">
+                <img class="business-byob__icon" src="images/icon7.png" alt="">
+                <img class="business-byob__icon" src="images/icon8.png" alt="">
+            </div>
+        </article>
+        <article class="description">
+            <h2 class="description__title description__title--lighter">Flexible Platform</h2>
+            <p class="description__paragraph">We are and industry agnostic platform. If you can track it, you can Progress it! Progress makes it easy for service
+                providers to connect directly with their customers.</p>
+        </article>
+        <form class="byob-form">
+            <input class="byob-form__input" type="text" name="email" value="Add your email address">
+            <a href="" class="byob-form__button">invite me</a>
+        </form>
+    </section>
+
+    <section class="follow-along">
+        <p class="follow-along__description">Follow along on Twitter for all the lastest news!
+            <a class="follow-along__link" href="">@Progress_App</a>
+        </p>
+    </section>
+    <footer class="footer">
+        <p>
+            <i class="fa fa-copyright" aria-hidden="true"></i> 2014 Shooting Brake Design</p>
+    </footer>
+</body>
+
 </html>
